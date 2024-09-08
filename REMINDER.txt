@@ -1,0 +1,4 @@
+- Calculating the accuracy of data in machine learning may require a huge amount of data to ensure precise accuracy or else the said data may 
+have more inaccuracies. Cleaning data is also recommended in order for 
+this to be performed well.
+
