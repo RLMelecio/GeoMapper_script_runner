@@ -21,9 +21,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # pip install -r requirements.txt  
-        pip install jupyter 
+        pip install jupyter
+        pip install firebase_admin cartopy matplotlib xarray numpy metpy earthaccess
 
     - name: Execute Jupyter Notebook
       run: |
-        jupyter nbconvert --to notebook --execute Geomapper.ipynb --output Geomapper.ipynb
+        jupyter nbconvert --to notebook --execute Geomapper.ipynb --output Geomapper_output.ipynb
